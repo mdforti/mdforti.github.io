@@ -1,0 +1,51 @@
+.gridrow {
+  overflow:auto;
+  height:auto;
+}
+.gridrow::after {
+  content:"";
+  clear:both;
+  display:table;
+}
+
+.gridcol1{
+  width:30%;
+}
+.gridcol2{
+  width:60%;
+}
+.gridcol3{
+  width:90%;
+}
+
+[class*="gridcol"] {
+  float:left;
+  padding:5px;
+  margin: 5px;
+}
+
+html {
+  font-family:"Lucida Sans", sans-serif;
+}
+
+
+.header {
+  background-color: rgb(217, 217, 217);
+  text-align:center;
+  padding:10px;
+  height:30%;
+}
+.contents {
+  height:60%;
+
+}
+.header h1 {
+  font-size:40px;
+}
+
+
+p {
+  text-align:justify;
+}
+
+
