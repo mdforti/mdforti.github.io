@@ -1,0 +1,33 @@
+.MainItem { 
+  background-color:rgb(230, 230, 230);
+  width:100%;
+}
+.fila-item {
+  width:100%;
+  display:block;
+  overflow:auto;
+}
+
+.celda-item,.celda-titulo {
+  float:left;
+}
+
+.celda-titulo{
+  width:30%;
+}
+.celda-item {
+  width:70%;
+}
+p {
+  text-align: justify;
+}
+
+p.texto-item{
+  padding:5px;
+}
+p.caption {
+  text-align:center;
+}
+
+
+

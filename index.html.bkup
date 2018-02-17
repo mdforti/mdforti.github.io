@@ -1,0 +1,29 @@
+<!DOCTYPE HTML5>
+<html lang="es">
+  <head> 
+    <meta charset="utf-8" />
+    <title>Página Personal de Mariano Forti</title>
+    <link rel="stylesheet" type="text/css" href="MainStyles.css" />
+  </head>
+  
+  
+  <body id="Main">
+    
+    <div id="Title">
+      <center>
+	<h1>Mariano Forti</h1>
+	<p class="caption"> Mi sitio Personal </p>
+      </center>
+    </div>
+    
+    <!--    <div id="Presentaciones-div" class="MainItem">-->
+      <OBJECT data="Dissertations/index.html" width=100% >
+	Warning:Dissertations/index.html not included
+      </OBJECT>
+      <!--    </div> -->
+      <OBJECT data="./Modelizacion/index.html" width=100%>
+	WARNING: No se puede mostrar el contenido de modelizacion
+      </OBJECT>
+    
+  </body>
+</html>
