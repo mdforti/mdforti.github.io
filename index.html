@@ -2,32 +2,39 @@
 <html lang="es">
   <head> 
     <meta charset="utf-8" />
+    <meta name="robots" content="noindex,nofollow"/>
     <title>Página Personal de Mariano Forti</title>
     <link rel="stylesheet" type="text/css" href="MainStyles.css" />
   </head>
 
   <body>
-    <div id="Title" class="header">
-      <h1>Mariano Forti</h1>
-      <h2>mi sitio personal</h2>
-En orden de importancia separado por puntos:
-Padre y esposo. Doctor en Ciencia de Materiales. 
-Comensal y deportista amateur. Cuando puedo, hermano y amigo. 
-    </div>
-    <div class="gridrow contents">
-      <div class="gridcol1" id="Menu">
+  <div class="grid-container">
+    <div class="head"> <center>Mariano Forti / sitio personal</center></div>
+    <div class="menu" id="MenuPrincipal">
 	<h2>Contenido</h2>
-	<ul>
-	  <li>Bienvenido</li>
-	  <li>Tesis Doctoral</li>
-	  <li>Modelización</li>
-	</ul>
-      </div>
-      <div class="gridcol2" id="Articulo">
-	<OBJECT data="default.html"></OBJECT>
+      <div class="menu_grid">
+	<a href="./default.html" target="ArticuloActual">Bienvenido</a>
+	<div>Tesis Doctoral</div>
+	<a href="./Modelizacion/index.html" target="ArticuloActual">Modelización</a>
+	<div>Curriculum-vitae</div>
       </div>
     </div>
-
+    <!--    <div class="main" id="ArticuloPrincipal"> -->
+    <iframe class="main" name="ArticuloActual" src="./default.html" frameborder="0" 
+      style="min-height:100%">
+      mi sitio Personal
+      por ahora informacion de relleno.
+    </iframe>
+    <!--    </div> -->
+  </div>
+  <div class="foot" id="PieDePagina">
+    <div class="social_grid" id="SocailMedia">
+      <div>Mis Perfiles</div>
+      <a href="https://twitter.com/marianodforti"> twitter </a>
+      <a href="https://www.researchgate.net/profile/Mariano_Forti"> ResearchGate </a>
+      <a href="https://www.researchgate.net/profile/Mariano_Forti"> Mendeley </a>
+    </div>
+  </div>
   </body>
 
 </html>
