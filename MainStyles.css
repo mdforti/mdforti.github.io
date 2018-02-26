@@ -39,7 +39,8 @@ color:white;
   display:grid;
   grid-gap:10px;
   justify-content:center;
-  flex:1;
+  background-color:rgb(217, 217, 217);
+  vertical-align:middle;
 }
 .menu_grid a:hover {
   background-color:black;
@@ -49,6 +50,18 @@ color:white;
 .menu_grid a, a:visited {
   color:black;
   text-decoration:none;
+  padding:5px;
+  margin:1px;
+  min-height:15px;
+  text-align:center;
+  vertical-align:middle;
+  min-width:80px;
+}
+
+div:focus, a:focus {
+  background-color:black;
+  color:white;
+  text-decoration: none;
 }
 
 @media only screen and (min-width: 768px){
