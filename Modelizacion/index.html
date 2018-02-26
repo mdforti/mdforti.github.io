@@ -9,7 +9,7 @@
 <style>
 .modelizacion_menu {
   display:grid;
-  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto;
   grid-gap:1px;
   justify-content:center;
   align-content:center;
@@ -20,17 +20,18 @@
   text-align:center;
   display:table-cell;
   color:black;
-  height:50px;
-  margin:5px;
-  padding:15px;
+  min-height:20px;
+  margin:1px;
+  padding:5px;
   vertical-align:middle;
   background-color:rgba(255,255,255,0.7);
+  font-size:15px;
 }
 .modelizacion_menu > div:hover,a:hover {
   background-color: black;
   color:white;
 }
-.modelizacion_menu a , a:visited,a:link  {
+.modelizacion_menu a , a:visited,a:link, a.selected  {
   text-decoration:none;
   color:black;
 }
@@ -42,6 +43,20 @@ a:visited {
   text-decoration:none;
 }
 
+@media only screen and (min-width: 768px){
+
+  .modelizacion_menu {
+    grid-gap:1px;
+  }
+
+  .modelizacion_menu > div , a {
+    font-size:20px;
+    min-height:20px;
+    margin:10px;
+  }
+
+}
+
 </style>
   </head>
   
@@ -50,7 +65,7 @@ a:visited {
     <div id="ModelizacionMenu" class="modelizacion_menu">
       <div id="LinkPrograma">  Programa </div>
       <a href="http://www.tandar.cnea.gov.ar/~weht/" target="_blank">
-	<div id="LinkClasesTeoricas">Clases Teoricas</div>
+	Clases Teoricas
       </a>
       <div id="LinkClasesPracticas">Clases Practicas</div>
       <div id="LinkTrabajosPracticos"> Trabajos Practicos</div>
