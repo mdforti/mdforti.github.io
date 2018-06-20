@@ -57,6 +57,10 @@ color:white;
   vertical-align:middle;
   min-width:80px;
 }
+.anuncio {
+  color:maroon;
+  font-size:25px;
+}
 
 div:focus, a:focus {
   background-color:black;
