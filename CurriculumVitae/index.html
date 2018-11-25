@@ -19,7 +19,7 @@
 		body.en :lang(es){
 		  display:none;
 		}
-		body.es :lang(en){
+		body.es :lang(en_US){
 		  display: none;
 		}
 		@page { margin-left: 2.5cm; margin-right: 1.5cm; margin-top: 1.59cm; margin-bottom: 1.27cm }
@@ -40,10 +40,11 @@
 
 <body>
 <b>Curriculum Vitae</b>
-<button onclick="document.body.className='en'">english</button>
+<button onclick="document.body.className='en_US'">english</button>
 <button onclick="document.body.className='es'">español</button>
-<object width="100%" borders="none" height="100%" src="CVcastellano-cabstract-color.html" lang="es" ></object>
-<object borders="none" width="100%" height="100%" src="CVEnglish_NEW2018"></object>
+<object lang="en_US" width="100%" borders="none" height="100%" data="./CVEnglish_NEW2018.html" type="text/html" ></object>
+<object width="100%" borders="none" height="100%" data="CVcastellano-cabstract-color.html" type="text/html" lang="es" ></object>
+<!--<object borders="none" width="100%" height="100%" src="CVEnglish_NEW2018"></object>-->
   <!-- 
     /home/mariano/CuadernoTrabajo/mdforti.github.io/CurriculumVitae/CVcastellano-cabstract-color.html
     /home/mariano/CuadernoTrabajo/mdforti.github.io/CurriculumVitae/CVEnglish_NEW2018.html
