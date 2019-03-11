@@ -68,6 +68,9 @@ div:focus, a:focus {
   text-decoration: none;
 }
 
+
+
+
 @media only screen and (min-width: 768px){
 
  .grid-container{
@@ -90,6 +93,7 @@ div:focus, a:focus {
     justify-content: center;
     display:grid;
   }
+
   
 }
 
