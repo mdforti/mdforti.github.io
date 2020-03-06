@@ -34,7 +34,7 @@ body {
   background-color: black;
   color:white;
 }
-.modelizacion_menu a , a:visited,a:link, a:selected  {
+.modelizacion_menu a , a:visited,a:link, a.selected  {
   text-decoration:none;
   color:black;
 }
@@ -46,6 +46,7 @@ body {
 a:visited {
   text-decoration:none;
 }
+
 @media only screen and (min-width: 768px){
   .modelizacion_menu {
     grid-gap:1px;
@@ -61,16 +62,23 @@ a:visited {
   
   
   <body id="Modelizacion-body" >
-      
-    <div id="Modelizacion" class="fila-item">
-      <!--<iframe id="Modelizacion-item" class="celda-item" name="Modelizacion-item" 
-	src="https://www.dropbox.com/sh/o9i13ethru5pj8f/AABOW9fproeFqhrsKeik-EGza?dl=0"
-	style="width:100%; border:0;height:85vh;">
-      </iframe> -->
-      <a href=" https://www.dropbox.com/sh/o9i13ethru5pj8f/AABOW9fproeFqhrsKeik-EGza?dl=0" target="_blank">
-	Carpeta Modelización Maestría 2019 en Dropbox
+    <div id="ModelizacionMenu" class="modelizacion_menu">
+      <a href="./Programa/index.html" id="LinkPrograma"target="Modelizacion2019">
+	Programa
+      </a>
+      <a href="http://www.tandar.cnea.gov.ar/~weht/" target="Modelizacion2019">
+	Clases Teoricas
+      </a>
+      <a href="Clases/ClasesPracticas.html" id="LinkClasesPracticas"target="Modelizacion2019">
+	Clases Practicas
+     </a>
+     <a href="TrabajosPracticos/TrabajosPracticos.html"id="LinkTPs"target="Modelizacion2019">
+       Trabajos Prácticos
+     </a>
     </div>
+    <iframe name="Modelizacion2019"class="contents" src="default.html"
+      align="middle"width="100%"height="100%"frameborder="0">
+    </iframe>
 
-    
   </body>
 </html>
