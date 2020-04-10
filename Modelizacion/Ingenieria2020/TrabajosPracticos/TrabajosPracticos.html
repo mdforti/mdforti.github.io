@@ -17,20 +17,11 @@ a, a:visited {
   padding:5px;
 }
 [class*=clase]:hover {
-  background-color:black;
+  background-color:gray;
   color:white;
 }
 
-[class*=clase]:hover {
-  text-decoration:none;
-  color:white
-}
-[class*=clase]:hover> a {
-  text-decoration:none;
-  color:white
-}
-
-[class*=clase]> a:hover {
+[class*=clase]> a:hover, a:focus {
   text-decoration:none;
   color:white;
 }
@@ -48,6 +39,7 @@ a, a:visited {
       target="Modelizacion-item">
       Introducción al Método de Elementos Finitos
     </a>
+    </div>
 
     <div class="clase1" >Guía 1  - 
       <!--     ~/CuadernoTrabajo/Slides/modelizacion/2020/Guia_1_2020.pdf -->
@@ -55,7 +47,6 @@ a, a:visited {
       target="Modelizacion-item">
       EDO - Diferencias Finitas
     </a>
-
     </div>
 
     <div class="clase1" >Guía 0  - 
